@@ -1,0 +1,73 @@
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.bodysection{
+  font-size: x-large;
+}
+
+.projects{
+  transition: 1s;
+}
+
+.projects:hover{
+  opacity: 0;
+}
+.vollgraf{
+  margin-left: 240px;
+}
+.bod-of-skill{
+  margin-left: -35px;
+}
+.img-fluid-gif{
+  width: 400px; 
+  height: 300px; 
+  border: solid 5px black;
+}
+.project-card{
+    padding-left:55px ;
+
+}
+@media screen and (max-width:700px) {
+  .bod-of-skill{
+    margin-left: 0px;
+  }
+  .project-card{
+    padding-left: 0px;
+
+  }
+  .vollgraf{
+    margin-left: 9px;
+  }
+  .thing{
+      display:initial;
+    }
+    .dope{
+      display: none;
+    }
+    
+    .face-pic{
+      width: 225px;
+      height: 225px;
+    
+    }
+    .about-me{
+      width: 150px;
+      height: 120px;
+      font-size: 12px;
+      margin-top: -50px;
+    }
+    .aboutme{
+      font-size:20px ;
+    }
+
+}
+
+
+
+
+
+
+
+
